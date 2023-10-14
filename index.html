@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Portfolio-Website</title>
+    <link rel="stylesheet" href="./server.js">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+
+</head>
+<body>
+    <header>
+        <!-- <h1>Your Name</h1> -->
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- <i class="fa fa-times" aria-hidden="true"></i>  -->
+            </ul>
+            <!-- <i class="fa fa-list" aria-hidden="true"></i> -->
+        </nav>
+    </header>
+    <section id="main">
+        <div class="name">
+                
+                <h1>I`m Priyanshu</h1>
+                <h2>Web Developer</h2>
+        </div>
+        <div class="blog">
+
+        </div>
+
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/WhatsApp_Image_2023-09-22_at_23.28.26-removebg-preview.png" alt="">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm Priyanshu Dubey, a passionate web developer with a love for creating user-friendly, interactive websites. <br>I have a strong foundation in HTML,CSS,JavaScript and Reactjs.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link " onclick="opentab('skills')">Skill</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>JAVA FULL STACK</span><br>Software Developer </li>
+                            <li><span>Web developer</span><br>Desginig web application</li>
+                            <li><span>BackEnd developer</span><br>Manage RDBMS DataBase</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Ms-Excel</span><br>MS Excel</li>
+                            <li><span>Tally</span><br>Accounting</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.COM</span><br>Shri Ram College of Commerce Jabalpur [2019-2022]</li>
+                            <li><span>PGDCA</span><br>Computer Application</li>
+                            <li><span>ACCOUNTING TALLY</span><br>Account, payroll</li>
+                        </ul>
+                    </div>
+                </div> 
+                </div>
+            </div>
+        </div>
+       
+    </section>
+
+    <!-- services -->
+    <div id ="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis blanditiis laudantium nihil labore! Sint eaque,</p>
+                <a href="#">lean more</a>
+                </div>
+                <div>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis blanditiis laudantium nihil labore! Sint eaque,</p>
+                <a href="#">lean more</a>
+                </div>
+                <div>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis blanditiis laudantium nihil labore! Sint eaque,</p>
+                <a href="#">lean more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work"> 
+                    <img src="./images/work-1.png" alt="">
+               <div class="layer">
+                <h3>SocialMedia App</h3>
+            
+            <a href=""><i class="fa fa-arrows-alt" aria-hidden="true"></i></a>  
+            </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        
+                        <a href=""><i class="fa fa-arrows-alt" aria-hidden="true"></i></a> 
+                       </div>
+                     </div>
+                <div class="work"> 
+                     <img src="./images/work-3.png" alt="">
+                     <div class="layer">
+                        <h3>Shopping App</h3>
+                     
+                        <a href=""><i class="fa fa-arrows-alt" aria-hidden="true"></i></a> 
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   
+
+    <!-- ----contact-- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa fa-envelope" aria-hidden="true"></i>  dubeyrishab146@gmail.com</p>
+                <p><i class="fa fa-phone-square" aria-hidden="true"></i> +91 7024403795</p>
+               
+                <div class="social-icons">
+                    
+                    <a><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <a><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+                <a href="./images/priyanshufrontdeveloperesume.pdf" class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" id=""  rows="6" placeholder="your Message"></textarea>
+                    <button type="submit"  class="btn btn2">submit</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</div>
+    <footer>
+        <p>&copy; 2023 priyanshu</p>
+    </footer>
+
+    <script >
+
+
+var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents")
+    
+    function opentab(tabname){
+        for (tablink of tablinks ){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwu4xCHg1WPEHTVxj--qD4CIoMOxM1tfHrV7s43UBTCS_7G_F6kyNs0qF16s9MPD1FT/exec'
+
+        const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTMl = " Message set sucessfully"
+                setTimeout(function() {
+                    msg.innerHTML=""
+                    
+                }, 5000)
+                form.reset()
+           
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
